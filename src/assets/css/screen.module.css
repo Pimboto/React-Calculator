@@ -2,9 +2,70 @@
     height: 34vh;
     width: 45vh;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    align-content: flex-end;
 
 }
 
 .mode{
+    height: 10vh;
+    width: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.containerBtn{
+    height: fit-content;
+    background-color: #292d36;
+    border: 0.3vh solid transparent;
+    border-radius: 1.5vh;
     
+}
+.modeBtn{
+    border: none;
+    transition: box-shadow 0.1s ease-in-out;
+    background-color: #292d36;
+    width: 6vh;
+    height: 5vh;
+    padding: 0;
+    color: #b9babc;
+    cursor: pointer;
+    font-size: 3vh;
+    border: 0,3vh solid transparent;
+}
+.modeBtn:active{
+    box-shadow: 0 0 0 0.3vh rgba(0, 123, 255, 0.25);
+}
+.modeBtn:focus{
+    color: white;
+}
+.modeLight{
+    border-radius: 1.5vh 0vh 0vh 1.5vh;
+    margin-right: 0.4vh;
+}
+.modeDark{
+    border-radius: 0vh 1.5vh 1.5vh 0vh;
+}
+.operation{
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    width: 45vh;
+    height: 3vh;
+    padding-top: 4vh;
+    padding-right: 4vh;
+    font-size: 3vh; 
+    color: #b9babc;
+}
+.operador{
+    color: #d24f4f;
+    font-weight: 300;
+}
+.result{
+    width: 45vh;
+    height: 12vh;
+    padding-right: 4vh;
+    font-size: 8vh;
 }
