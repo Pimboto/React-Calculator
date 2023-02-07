@@ -1,0 +1,9 @@
+.calculator{
+    background-color: #22252d;
+    height: 90vh;
+    width: 45vh;
+    border-radius: 30px;
+/*     display: flex;
+    flex-wrap: wrap; */
+    
+}
